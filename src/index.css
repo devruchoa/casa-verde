@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    list-style: none;
+    background-image: url('./assets/bg.png');
+}

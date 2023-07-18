@@ -1,0 +1,23 @@
+@import 'styles/variaveis';
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__nav {
+        display: flex;
+        gap: 1rem;
+
+        li {
+            display: flex;
+            gap: 1rem;
+
+            a {
+                color: $font-color;
+                font-size: $font-size-menu;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import 'styles/variaveis';
+
+.container {
+    padding: 6rem 11.7rem;
+    width: 30%;
+    h4 {
+        opacity: 0.5;
+        font-size: $font-size-subtitle;
+        margin-bottom: -3rem;
+    }
+    h2 {
+        font-size: $font-size-title;
+        font-family: $font-title;
+    }
+    p {
+        opacity: 0.5;
+        font-size: $font-size-menu;
+        margin-top: -2.5rem;
+    }
+}
